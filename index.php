@@ -28,14 +28,16 @@ $user_name = 'Kamynin Andrey'; // укажите здесь ваше имя
 
         <nav class="user-menu">
 
-        <!-- здесь должен быть PHP код для показа меню и данных пользователя -->
+        <!-- здесь должен быть PHP код для показа меню и данных пользователя 
+        Строгая типизация, если переменная того же типа
+    	Приучаемся к шорт тегам-->
 
-        <?php if ($is_auth == 1) : ?>
-         <div class="user-menu__logged">
-    		<p>#user_name#</p>
+        <?php if ($is_auth === 1) : ?> 
+        <div class="user-menu__logged">
+    		<p><?=$user_name?></p>
     		<a class="user-menu__bets" href="pages/my-bets.html">Мои ставки</a>
     		<a class="user-menu__logout" href="#">Выход</a>
-  		 </div>
+  		</div>
     	<?php else : ?>
     	<ul class="user-menu__list">
     		<li class="user-menu__item">
