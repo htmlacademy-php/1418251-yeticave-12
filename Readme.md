@@ -1,7 +1,7 @@
 # Личный проект «YetiCave»
 
 * Студент: [Andrew Kamynin](https://up.htmlacademy.ru/php/12/user/1418251).
-* Наставник: `Павел Гоголинский`.
+* Наставник: [Nikita Kolosov] (https://htmlacademy.ru/profile/id1186205).
 
 ---
 
